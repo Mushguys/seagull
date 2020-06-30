@@ -35,6 +35,7 @@ __all__ = [
     "Pulsar",
     "FigureEight",
     "Beacon",
+    "Pentadecathlon",
     "Glider",
     "Unbounded",
     "RandomBox",
