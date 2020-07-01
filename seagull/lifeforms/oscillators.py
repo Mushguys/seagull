@@ -88,15 +88,15 @@ class Beacon(Lifeform):
         return X
 
 class Pentadecathlon(Lifeform):
-	""" A Pentadecathlon lifeform oscillator"""
-	
-	def __init__(self):
-		"""Initialize the class"""
-		super(Pentadecathlon, self).__init__()
-	
-	@property
-	def layout(self) -> np.ndarray:
-		X = np.ones(shape=(8, 3), dtype=int)
-		X[1, 1] = 0
-		X[6, 1] = 0
-		return X
+    """ A Pentadecathlon lifeform oscillator"""
+    
+    def __init__(self):
+        """Initialize the class"""
+        super(Pentadecathlon, self).__init__()
+    
+    @property
+    def layout(self) -> np.ndarray:
+        X = np.ones(shape=(8, 3), dtype=int)
+        X[1, 1] = 0
+        X[6, 1] = 0
+        return X
